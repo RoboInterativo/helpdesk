@@ -13,7 +13,7 @@ services:
     depends_on:
       - db
     ports:
-      - "8069:8069"
+      - "8069"
     volumes:
       - /data/web:/var/lib/odoo
       - /data/config:/etc/odoo
