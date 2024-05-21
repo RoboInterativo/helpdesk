@@ -19,6 +19,7 @@ services:
       - /data/config:/etc/odoo
       - /data/addons:/mnt/extra-addons
     environment:
+      - POSTGRES_DB=postgres
       - POSTGRES_PASSWORD=odoo
       - POSTGRES_USER=odoo
      # - PASSWORD_FILE=/run/secrets/postgresql_password
